@@ -802,20 +802,19 @@ font-weight: 500;
     width: 16px;
     height: 16px;
     margin-right: 8px;
-
-    fill: transparent;
+    color: transparent;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-
     cursor: pointer;
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input[type="checkbox"]:checked + .modal-form-label > .checkbox-square {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    color: #F4F4FD;
 }
 
 .modal-checkbox-icon {
