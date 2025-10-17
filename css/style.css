@@ -802,7 +802,7 @@ font-weight: 500;
     width: 16px;
     height: 16px;
     margin-right: 8px;
-    color: transparent;
+    fill: transparent;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     cursor: pointer;
@@ -814,11 +814,10 @@ font-weight: 500;
 input[type="checkbox"]:checked + .modal-form-label > .checkbox-square {
     background-color: #404bbf;
     border: none;
-    color: #F4F4FD;
+    fill: #F4F4FD;
 }
 
 .modal-checkbox-icon {
-    fill: currentColor;
 }
 
 /* #endregion */
