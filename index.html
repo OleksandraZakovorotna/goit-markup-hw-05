@@ -467,23 +467,26 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form-subscribe" name="subscribe-footer-form">
-          <div class="footer-wrapper-input">
-            <label class="footer-label"> Subscribe </label>
-            <input
-              type="email"
-              name="email"
-              class="footer-input"
-              placeholder="E-mail"
-            />
-          </div>
-          <button class="footer-button" type="button">
-            Subscribe
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-frame"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="footer-form-subscribe">
+          <form class="form-subscribe" name="subscribe-footer-form">
+            <label class="footer-label" for="subscr-email">Subscribe</label>
+            <div class="footer-wrapper-input">
+              <input
+                type="email"
+                name="email"
+                class="footer-input"
+                placeholder="E-mail"
+                id="subscr-email"
+              />
+              <button class="footer-button" type="button">
+                Subscribe
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="modal-overlay">
@@ -493,9 +496,7 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h3 class="modal-title">
-          Leave your contacts and we will call you back
-        </h3>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form" name="form-modal">
           <div class="modal-form-field">
             <label class="modal-form-label" for="user-name">Name</label>
@@ -520,7 +521,7 @@
                 id="user-phone"
                 name="user-phone"
               />
-              <svg class="modal-form-icon" width="18" height="24">
+              <svg class="modal-form-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -534,7 +535,7 @@
                 id="user-email"
                 name="user-email"
               />
-              <svg class="modal-form-icon" width="18" height="24">
+              <svg class="modal-form-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
@@ -544,7 +545,7 @@
             <textarea
               rows="4"
               class="modal-form-comment"
-              name="comment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
